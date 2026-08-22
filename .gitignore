@@ -3,3 +3,5 @@ Assignment_tasks/
 Practice_code/
 
 .env
+
+*.csv
