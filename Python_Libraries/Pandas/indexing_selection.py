@@ -24,7 +24,7 @@ If we specify an index column while loading the data,
 that column becomes the DataFrame's index and its values
 can be used as row labels with loc.
 exampe:
-df=pd.read_csv("IPL_mathces, index_col="id")
+df=pd.read_csv("IPL_mathces.csv, index_col="id")
 
 result=df.loc[3] it will give rows with index label 3
 
