@@ -109,7 +109,7 @@ df["Name"] = df["Name"].str.upper()    #it converts text into upper case
 print(df["Name"])
 
                              #use of str.contains()
-text_containing_h=df["Name"].str.contains("H")  #Show only the rows where the Name contains "a".
+text_containing_h=df["Name"].str.contains("H")  #Show only the rows where the Name contains "H".
 print(text_containing_h)
 
 
@@ -135,3 +135,5 @@ print(get_specific_data)
                        #cleaning column names.
 df.columns = df.columns.str.strip()  #remove extra spaces
 df.columns = df.columns.str.lower()   #convert to lower case
+
+print(df.columns)
