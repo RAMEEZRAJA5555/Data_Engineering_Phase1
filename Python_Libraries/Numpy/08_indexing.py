@@ -27,6 +27,7 @@ table = np.array([
 # Access an element using row and column
 # First value is the row, second value is the column
 print(table[1, 2])
+print(table[2,2])
 
 
 # Access the complete first row
