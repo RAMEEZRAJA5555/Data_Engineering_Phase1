@@ -1,0 +1,90 @@
+# Student Performance Factors — Data Analysis Project
+
+## 1. Project Objective
+
+The objective of this project is to analyze student performance data and understand how different factors are associated with students' exam scores.
+
+The project uses Python libraries to inspect, clean, analyze, and visualize the dataset.
+
+## 2. Dataset Description
+
+The dataset used in this project is **StudentPerformanceFactors.csv**.
+
+- Total initial records: 6,607
+- Total columns: 20
+- Target analysis column: `Exam_Score`
+
+The dataset contains information about students, including study hours, attendance, sleep hours, previous scores, tutoring sessions, family background, school-related factors, and exam scores.
+
+## 3. Data Cleaning
+
+The following cleaning activities were performed:
+
+- Checked the dataset's structure and data types.
+- Identified missing values.
+- Checked for duplicate records.
+- Inspected numerical and categorical values.
+- Corrected an exam score of 101 to 100, based on the assumed maximum score of 100.
+- Removed rows containing missing values using `dropna()`.
+
+After removing missing values, the cleaned dataset contained **6,378 records**.
+
+The cleaned dataset was saved separately as `StudentPerformanceFactors_Cleaned.csv`.
+
+## 4. Exploratory Data Analysis (EDA)
+
+EDA was performed to understand the dataset and explore its characteristics.
+
+The analysis included:
+
+- Examining numerical columns using descriptive statistics.
+- Inspecting unique values in categorical columns.
+- Checking the distribution of numerical data.
+- Exploring relationships between student-related factors and exam scores.
+
+## 5. Relationship Analysis
+
+Numerical and categorical columns were compared with `Exam_Score`.
+
+### Numerical Relationships
+
+- Hours studied showed a moderate positive correlation with exam scores (approximately 0.445).
+- Sleep hours showed almost no linear correlation with exam scores (approximately -0.017).
+- Attendance showed an upward trend in the scatterplot.
+
+### Categorical Relationships
+
+Average exam scores were compared across different categories, including motivation level, parental involvement, school type, and other categorical factors.
+
+The observed average scores were generally similar, with relatively small differences between groups.
+
+## 6. Data Visualization
+
+The following visualizations were created:
+
+- Scatterplots to explore numerical relationships.
+- Barplots to compare average exam scores across categories.
+- Histograms to understand numerical distributions.
+- Boxplots to examine data spread and possible outliers.
+- Countplots to compare categorical group sizes.
+- Correlation heatmap to visualize relationships between numerical columns.
+
+## 7. Key Insights
+
+- Most students' exam scores were concentrated around 60–70.
+- Study hours showed a moderate positive relationship with exam scores.
+- Sleep hours showed almost no linear relationship with exam scores.
+- Attendance showed an upward visual trend with exam scores.
+- Categorical group averages showed relatively small differences.
+
+These findings describe associations and patterns in the dataset, not necessarily cause-and-effect relationships.
+
+## 8. Conclusion
+
+This project explored student performance data using Python, Pandas, NumPy, Matplotlib, and Seaborn.
+
+The analysis included data cleaning, exploratory data analysis, relationship analysis, and visualization.
+
+The results helped identify patterns between student-related factors and exam scores. Study hours and attendance showed positive relationships with exam performance, while sleep hours showed almost no linear relationship.
+
+Overall, this project provided practical experience in data cleaning, analysis, visualization, and interpreting data-driven findings.

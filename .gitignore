@@ -5,3 +5,7 @@ Practice_code/
 .env
 
 *.csv
+
+
+!StudentPerformanceFactors.csv
+!cleaned_StudentPerformanceFactors.csv
